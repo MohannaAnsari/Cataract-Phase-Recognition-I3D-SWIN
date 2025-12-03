@@ -56,7 +56,16 @@ Both models share the same:
   i3d_model.py
   
   utils.py
+
+- data/
+
+    annotations.csv
   
+    annotations_segments.csv
+  
+    phases.csv
+  
+    videos.csv
   
 - notebooks/
 
