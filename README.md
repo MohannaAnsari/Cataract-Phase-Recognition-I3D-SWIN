@@ -41,20 +41,21 @@ Both models share the same:
 
 ## 📁 Repository Structure
 
-src/
-dataset.py
-eda.py
-phase1_main.py
-train_clip.py
-evaluate_clip.py
-i3d_model.py
-swin_model.py # <-- added
-utils.py
-notebooks/
-phase_2.ipynb # Swin/VideoMAE experiments
-reports/
-phase1_summary.md
-phase2_summary.md
+- src/
+  dataset.py
+  eda.py
+  i3d_main.py
+  train_clip.py
+  evaluate_clip.py
+  i3d_model.py
+  utils.py
+  
+- notebooks/
+  swin_model.ipynb
+  
+- reports/
+  phase1_summary.md
+  phase2_summary.md
 
 
 
@@ -77,17 +78,17 @@ python src/train_clip.py --model i3d
 
 ## 📦 Requirements
 
-torch
-torchvision
-timm
-pytorchvideo
-numpy
-opencv-python
-matplotlib
-pandas
-seaborn
-scipy
-sklearn
-tqdm
-pyyaml
+- torch
+- torchvision
+- timm
+- pytorchvideo
+- numpy
+- opencv-python
+- matplotlib
+- pandas
+- seaborn
+- scipy
+- sklearn
+- tqdm
+- pyyaml
 
