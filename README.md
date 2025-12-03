@@ -24,7 +24,7 @@ Features:
 - Weighted cross-entropy  
 
 ### ✔ Swin Transformer / VideoMAE  
-File: `src/swin_model.ipynb`  
+File: `notebooks/swin_model.ipynb`  
 (**You should paste your Phase 2 notebook implementation here**)  
 Features:
 - Pretrained VideoMAE or Swin-v2 backbone  
@@ -41,20 +41,31 @@ Both models share the same:
 
 ## 📁 Repository Structure
 
-- src/
+src/
+
   dataset.py
+  
   eda.py
+  
   i3d_main.py
+  
   train_clip.py
+  
   evaluate_clip.py
+  
   i3d_model.py
+  
   utils.py
   
-- notebooks/
+  
+notebooks/
+
   swin_model.ipynb
   
-- reports/
+reports/
+
   phase1_summary.md
+  
   phase2_summary.md
 
 
@@ -63,9 +74,9 @@ Both models share the same:
 
 ## 🚀 Training the Swin Classifier
 
-python src/train_clip.py --model swin
+notebooks/swin_model.ipynb
 
-(You can add a CLI argument or just switch in code.)
+(You can use this notebook.)
 
 ---
 
