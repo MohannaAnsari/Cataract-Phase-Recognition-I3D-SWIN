@@ -41,7 +41,7 @@ Both models share the same:
 
 ## 📁 Repository Structure
 
-src/
+- src/
 
   dataset.py
   
@@ -58,11 +58,11 @@ src/
   utils.py
   
   
-notebooks/
+- notebooks/
 
   swin_model.ipynb
   
-reports/
+- reports/
 
   phase1_summary.md
   
