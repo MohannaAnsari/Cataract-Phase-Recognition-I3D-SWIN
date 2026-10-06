@@ -25,7 +25,6 @@ Features:
 
 ### ✔ Swin Transformer / VideoMAE  
 File: `notebooks/swin_model.ipynb`  
-(**You should paste your Phase 2 notebook implementation here**)  
 Features:
 - Pretrained VideoMAE or Swin-v2 backbone  
 - Frozen → gradual unfreezing strategy  
